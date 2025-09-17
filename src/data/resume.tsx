@@ -50,7 +50,7 @@ avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQFoMQJK0k2d_w/profile-dis
       },
       X: {
         name: "X",
-        url: "https://x.com/adxtya_jha2005",
+        url: "https://x.com/adxtya_jha",
         icon: Icons.x,
 
         navbar: true,
