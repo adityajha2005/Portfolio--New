@@ -113,7 +113,7 @@ avatarUrl: "/pfp.jpeg",
         title: "Full Stack Developer",
         logoUrl: "https://media.licdn.com/dms/image/v2/D4E16AQFDashwb8wvQA/profile-displaybackgroundimage-shrink_350_1400/B4EZXJDZsJGwAo-/0/1742834867726?e=1764201600&v=beta&t=eIWd9j5D3fyoqKqz2MxID6wyDearKSM3eVZtmYFhjwQ",
         start: "July 2025",
-        end: "Present",
+        end: "October 2025",
         description:
           "Engineered single-player and multiplayer versions of Pikme from the ground up, serving 500+ active users. Boosted site performance by 40% through caching strategies, lazy loading, and frontend optimizations. Managed end-to-end deployment on AWS, including EC2, S3, and server configuration for 99.9% uptime."
       },
@@ -126,7 +126,7 @@ avatarUrl: "/pfp.jpeg",
         title: "Full Stack Blockchain Developer",
         logoUrl: "https://media.licdn.com/dms/image/v2/D4D0BAQGUKsfjHB8RNQ/company-logo_100_100/company-logo_100_100/0/1735368022724/stealth_startup_51_logo?e=1761177600&v=beta&t=k9F16_cP8yiR9nW2677K8B6xW1CkS_VM3PhRbUN-yCQ", // placeholder, update if you have logo
         start: "August 2025",
-        end: "Present",
+        end: "October 2025",
         description:
           "Developed and deployed DAO governance smart contracts handling $50K+ in TVL with 100% test coverage and security audits. Built complete frontend interface with 95%+ user satisfaction and integrated smart contracts with both frontend and backend for seamless Web3 UX."
       },      
@@ -146,7 +146,7 @@ avatarUrl: "/pfp.jpeg",
       {
         company: "Solana Superteam",
         href: "https://superteam.fun",
-        badges: ["Internship"],
+        // badges: ["Internship"],
         location: "Remote, India",
         title: "Community Member & Builder",
         logoUrl: "https://pbs.twimg.com/profile_images/1679100194028392448/4_3L1nRh_400x400.jpg", // placeholder, update if you have the logo
