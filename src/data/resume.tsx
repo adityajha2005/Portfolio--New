@@ -146,7 +146,7 @@ avatarUrl: "/pfp.jpeg",
       {
         company: "Solana Superteam",
         href: "https://superteam.fun",
-        // badges: ["Internship"],
+        badges: ["Community Member & Builder"],
         location: "Remote, India",
         title: "Community Member & Builder",
         logoUrl: "https://pbs.twimg.com/profile_images/1679100194028392448/4_3L1nRh_400x400.jpg", // placeholder, update if you have the logo
