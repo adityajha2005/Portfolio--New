@@ -8,10 +8,10 @@ export const DATA = {
   location: "New Delhi, India",
   // locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-"Web3 Developer with a Web2 day job -  building, learning, and sharing on X.",
+"Web3 Developer - building, learning, and sharing on X.",
   summary:
 "I’m a Web3-focused Full Stack Developer and entrepreneur, currently building scalable SaaS and decentralized applications. With experience across multiple startups, 7+ hackathon wins, and grants, I love turning ideas into products that bridge Web2 and Web3. Beyond coding, I enjoy experimenting, sharing, and contributing to the developer ecosystem."  ,
-avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQFoMQJK0k2d_w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693678939693?e=1761177600&v=beta&t=XfdL0k8ajfoBwzxfHsBvqzSGcPT9tV1UmMFtKeuDb9E",
+avatarUrl: "/pfp.jpeg",
   skills: [
     "React",
     "Next.js",
@@ -26,6 +26,32 @@ avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQFoMQJK0k2d_w/profile-dis
     "Docker",
     "AWS"
   ],
+  services: [
+    {
+      title: "Web3 Development",
+      description: "Smart contracts, DeFi protocols, NFT platforms, and blockchain integrations. Experience with Solidity, Rust, and multiple chains.",
+      icon: "🔗",
+    },
+    {
+      title: "Full-Stack Development",
+      description: "End-to-end web applications with modern frameworks. React, Next.js, TypeScript, Node.js, and cloud deployment.",
+      icon: "⚡",
+    },
+    {
+      title: "Smart Contract Auditing",
+      description: "Security-focused smart contract reviews and optimizations. Ensuring your contracts are production-ready and secure.",
+      icon: "🔒",
+    },
+    {
+      title: "SaaS Development",
+      description: "Scalable SaaS applications with modern architecture. From MVP to production with performance optimization.",
+      icon: "🚀",
+    },
+  ],
+  availability: {
+    status: "Available",
+    message: "Open to new freelance projects and collaborations",
+  },
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
@@ -67,13 +93,25 @@ avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQFoMQJK0k2d_w/profile-dis
 
   work: [
     {
+        company: "Skate Chain",
+        href: "https://www.skatechain.org/", // add company website if available
+        badges: ["Internship"],
+        location: "Remote, Singapore", 
+        title: "Blockchain Developer Intern",
+        logoUrl: "https://media.licdn.com/dms/image/v2/D560BAQHf20XE0q8t7Q/company-logo_200_200/company-logo_200_200/0/1713448328113/range_protocol_logo?e=2147483647&v=beta&t=AXtRHD7wJdchNthoq5bfimGFcvi_g9DkwxEXcdouK0c", // add logo URL if available
+        start: "January 2025", // update with actual start date
+        end: "Present",
+        description:
+          "Working as a Blockchain Developer Intern, contributing to blockchain development and smart contract implementation.",
+      },
+    {
       
         company: "Pikme",
         href: "https://pikme.app", // replace with actual if you have
-        badges: [],
+        badges: ["Internship"],
         location: "Remote, San Francisco",
         title: "Full Stack Developer",
-        logoUrl: "https://media.licdn.com/dms/image/v2/D4E0BAQEsm7hc9fbl7Q/company-logo_100_100/B4EZVieI_2HUAQ-/0/1741113824113/pikmeinc_logo?e=1761177600&v=beta&t=8Cc5zTr81dgJT8n8zUgx28A6Uf7DbuQ0j8M311tc4wE", // adjust if you have the logo
+        logoUrl: "https://media.licdn.com/dms/image/v2/D4E16AQFDashwb8wvQA/profile-displaybackgroundimage-shrink_350_1400/B4EZXJDZsJGwAo-/0/1742834867726?e=1764201600&v=beta&t=eIWd9j5D3fyoqKqz2MxID6wyDearKSM3eVZtmYFhjwQ",
         start: "July 2025",
         end: "Present",
         description:
@@ -82,8 +120,8 @@ avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQFoMQJK0k2d_w/profile-dis
       
       {
         company: "Stealth Startup",
-        badges: [],
-        href: "", // can add later if public
+        badges: ["Freelance"],
+        href: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Stealth-logo.svg/2048px-Stealth-logo.svg.png", // can add later if public
         location: "Remote, Boston",
         title: "Full Stack Blockchain Developer",
         logoUrl: "https://media.licdn.com/dms/image/v2/D4D0BAQGUKsfjHB8RNQ/company-logo_100_100/company-logo_100_100/0/1735368022724/stealth_startup_51_logo?e=1761177600&v=beta&t=k9F16_cP8yiR9nW2677K8B6xW1CkS_VM3PhRbUN-yCQ", // placeholder, update if you have logo
@@ -94,11 +132,11 @@ avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQFoMQJK0k2d_w/profile-dis
       },      
       {
         company: "Euclid Protocol",
-        href: "", // add if there's a public link
-        badges: [],
+        href: "https://www.euclidprotocol.io/", // add if there's a public link
+        badges: ["Internship"],
         location: "Remote, Dubai",
         title: "Full Stack Developer",
-        logoUrl: "https://media.licdn.com/dms/image/v2/D560BAQHnn-C_42UFNA/company-logo_200_200/company-logo_200_200/0/1715355342323?e=1761177600&v=beta&t=dYQZizuNcCqv_XtCRbR9tVlyBPtvlBNJEJkIR6RnFjc", // placeholder, update if you have the logo
+        logoUrl: "https://pbs.twimg.com/profile_images/1787780246256726016/yaY-XoKg_400x400.jpg",
         start: "May 2025",
         end: "July 2025",
         description:
@@ -108,7 +146,7 @@ avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQFoMQJK0k2d_w/profile-dis
       {
         company: "Solana Superteam",
         href: "https://superteam.fun",
-        badges: [],
+        badges: ["Internship"],
         location: "Remote, India",
         title: "Community Member & Builder",
         logoUrl: "https://pbs.twimg.com/profile_images/1679100194028392448/4_3L1nRh_400x400.jpg", // placeholder, update if you have the logo
@@ -119,11 +157,11 @@ avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQFoMQJK0k2d_w/profile-dis
       },      
       {
         company: "Aiphi AI",
-        href: "", // add company site if you want
+        href: "https://aiphi.ai/", // add company site if you want
         badges: ["Internship"],
         location: "Bengaluru, Karnataka, India · Hybrid",
         title: "Full Stack AI Engineer",
-        logoUrl: "https://media.licdn.com/dms/image/v2/D560BAQGmoVlXuCa7mg/company-logo_200_200/company-logo_200_200/0/1719414649361/aiphi_ai_logo?e=1761177600&v=beta&t=sJ_zl_K0kpkUOol4AsiiQJ5CGxRFt5R-P05pk5taX5A", // placeholder, update if you have logo
+        logoUrl: "https://aiphi.ai/wp-content/uploads/2024/01/1080P-Full-HD-2.png",
         start: "February 2025",
         end: "April 2025",
         description:
@@ -135,12 +173,84 @@ avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQFoMQJK0k2d_w/profile-dis
       school: "Manipal University Jaipur",
       href: "https://jaipur.manipal.edu/",
       degree: "Bachelor of Technology in Computer Science and Engineering",
-      logoUrl: "https://jaipur.manipal.edu/img/manipal-university-jaipur-logo-01.svg",
+      logoUrl: "https://upload.wikimedia.org/wikipedia/en/1/1f/Manipal_University_Jaipur_logo.png",
       start: "2023",
       end: "2027",
     },
   ],
   pprojects: [
+    {
+      title: "Aura Protocol",
+      href: "https://auraprotocol.vercel.app/",
+      dates: "2025",
+      active: true,
+      description:
+        "Fast. Efficient. Revolutionary. Experience the future of blockchain with Aura - where speed meets innovation. Powered by Avalanche. A decentralized DeFi protocol offering cutting-edge financial solutions with unmatched security and efficiency.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Solidity",
+        "Avalanche",
+        "Web3",
+        "DeFi",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://auraprotocol.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/aura.png",
+      video: "",
+    },
+    {
+      title: "SnapChain",
+      href: "https://snapchain.vercel.app",
+      dates: "2025",
+      active: true,
+      description:
+        "Developed an AI-powered drag-and-drop platform to simplify Rust smart contract creation. Features Scratch-like interface, AI-assisted generation, and pre-made templates. Used by 200+ developers, reducing contract development time by 70%.",
+      technologies: ["Next.js", "TypeScript", "MongoDB", "Rust", "Google Gemini API"],
+      links: [
+        {
+          type: "Website",
+          href: "https://snapchain.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/adityajha2005/snapchain",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/snap.png", // Add screenshot: "/snapchain.png" (place in /public folder) or use external URL
+      video: "", // Optional: Add demo video URL
+    },
+    {
+      title: "ForkYouDaddy",
+      href: "https://forkyoudaddy.vercel.app",
+      dates: "2025",
+      active: true,
+      description:
+        "Web3 application for creating, remixing, and licensing creative IP with 100+ registered works and $5K+ in licensing revenue. Creators register original works onchain, others fork with attribution, and licenses define usage and monetization.",
+      technologies: ["Next.js", "TypeScript", "Solidity", "Web3"],
+      links: [
+        {
+          type: "Website",
+          href: "https://forkyoudaddy.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/adityajha2005/forkyoudaddy",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      // image: "/fork.png",
+      image: "/fork.png", 
+      video: "", // Add screenshot: "/forkyoudaddy.png" (place in /public folder) or use external URL
+    },
     {
       title: "MEMEFI",
       href: "https://memefi-platform.vercel.app",
@@ -168,84 +278,8 @@ avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQFoMQJK0k2d_w/profile-dis
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "SnapChain",
-      href: "https://snapchain.vercel.app",
-      dates: "2025",
-      active: true,
-      description:
-        "Developed an AI-powered drag-and-drop platform to simplify Rust smart contract creation. Features Scratch-like interface, AI-assisted generation, and pre-made templates. Used by 200+ developers, reducing contract development time by 70%.",
-      technologies: ["Next.js", "TypeScript", "MongoDB", "Rust", "Google Gemini API"],
-      links: [
-        {
-          type: "Website",
-          href: "https://snapchain.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/adityajha2005/snapchain",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-    // {
-    //   title: "MEMEFI",
-    //   href: "https://memefi-platform.vercel.app",
-    //   dates: "2025",
-    //   active: true,
-    //   description:
-    //     "Launched MEMEFI – a gamified meme staking platform where users upload memes, stake them, and earn rewards based on stakes and engagement. Integrated wallet abstraction for a seamless UX without manual crypto setup.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Tailwind CSS",
-    //     "Solidity (BNB Chain)",
-    //     "Node.js",
-    //     "MongoDB",
-    //     "IPFS",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://memefi-platform.vercel.app",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/adityajha2005/memefi-platform",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video: "",
-    // },
-    {
-      title: "ForkYouDaddy",
-      href: "https://forkyoudaddy.vercel.app",
-      dates: "2025",
-      active: true,
-      description:
-        "Web3 application for creating, remixing, and licensing creative IP with 100+ registered works and $5K+ in licensing revenue. Creators register original works onchain, others fork with attribution, and licenses define usage and monetization.",
-      technologies: ["Next.js", "TypeScript", "Solidity", "Web3"],
-      links: [
-        {
-          type: "Website",
-          href: "https://forkyoudaddy.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/adityajha2005/forkyoudaddy",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
+      image: "/image.png", // Add screenshot: "/memefi.png" (place in /public folder) or use external URL
+      video: "", // Optional: Add demo video URL
     },
     {
       title: "Capsulr",
@@ -267,8 +301,34 @@ avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQFoMQJK0k2d_w/profile-dis
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "",
+      image: "/capsulr.png", // Add screenshot: "/capsulr.png" (place in /public folder) or use external URL
+      video: "", // Optional: Add demo video URL
+    },
+    {
+      title: "OnlyNerds",
+      href: "https://onlynerds-rose.vercel.app/",
+      dates: "2025",
+      active: true,
+      description:
+        "🎓 Fork courses. 🤖 Learn with AI agents. 🧬 Earn dynamic skill NFTs. Say goodbye to scammy LMSs and corporate BS. Only Nerds is for builders, creators, and autodidacts who learn by doing. The first decentralized learning platform where you can learn, create, fork courses, and earn NFTs.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Solidity",
+        "Web3",
+        "AI Agents",
+        "NFTs",
+        "IPFS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://onlynerds-rose.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/onlynerds.png", // Add screenshot: "/onlynerds.png" (place in /public folder) or use external URL
+      video: "", // Optional: Add demo video URL
     },
     
   ],
