@@ -99,7 +99,7 @@ avatarUrl: "/pfp.jpeg",
         location: "Remote, Singapore", 
         title: "Blockchain Developer Intern",
         logoUrl: "https://media.licdn.com/dms/image/v2/D560BAQHf20XE0q8t7Q/company-logo_200_200/company-logo_200_200/0/1713448328113/range_protocol_logo?e=2147483647&v=beta&t=AXtRHD7wJdchNthoq5bfimGFcvi_g9DkwxEXcdouK0c", // add logo URL if available
-        start: "January 2025", // update with actual start date
+        start: "October 2025", 
         end: "Present",
         description:
           "Working as a Blockchain Developer Intern, contributing to blockchain development and smart contract implementation.",
