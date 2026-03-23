@@ -10,7 +10,7 @@ export const DATA = {
   description:
 "Web3 Developer - building, learning, and sharing on X.",
   summary:
-"I’m a Web3-focused Full Stack Developer and entrepreneur, currently building scalable SaaS and decentralized applications. With experience across multiple startups, 7+ hackathon wins, and grants, I love turning ideas into products that bridge Web2 and Web3. Beyond coding, I enjoy experimenting, sharing, and contributing to the developer ecosystem."  ,
+"I’m a Web3-focused Full Stack Developer and entrepreneur, currently building scalable SaaS and decentralized applications. With experience across multiple startups, 10+ hackathon wins, and grants, I love turning ideas into products that bridge Web2 and Web3. Beyond coding, I enjoy experimenting, sharing, and contributing to the developer ecosystem."  ,
 avatarUrl: "/pfp.jpeg",
   skills: [
     "React",
@@ -92,6 +92,18 @@ avatarUrl: "/pfp.jpeg",
   },
 
   work: [
+     {
+        company: "Pikme",
+        href: "https://www.playpikme.com/", // add company website if available
+        badges: ["Contract"],
+        location: "Remote, San Francisco", 
+        title: "Full Stack Developer",
+        logoUrl: "https://media.licdn.com/dms/image/v2/D4E16AQFDashwb8wvQA/profile-displaybackgroundimage-shrink_350_1400/B4EZXJDZsJGwAo-/0/1742834867726?e=1764201600&v=beta&t=eIWd9j5D3fyoqKqz2MxID6wyDearKSM3eVZtmYFhjwQ",
+        start: "February 2026", // update with actual start date
+        end: "Present",
+        description:
+          "Working as a Blockchain Developer, contributing to blockchain development and smart contract implementation.",
+      },
     {
         company: "Skate Chain",
         href: "https://www.skatechain.org/", // add company website if available
@@ -99,8 +111,8 @@ avatarUrl: "/pfp.jpeg",
         location: "Remote, Singapore", 
         title: "Blockchain Developer Intern",
         logoUrl: "https://media.licdn.com/dms/image/v2/D560BAQHf20XE0q8t7Q/company-logo_200_200/company-logo_200_200/0/1713448328113/range_protocol_logo?e=2147483647&v=beta&t=AXtRHD7wJdchNthoq5bfimGFcvi_g9DkwxEXcdouK0c", // add logo URL if available
-        start: "January 2025", // update with actual start date
-        end: "Present",
+        start: "October 2025", // update with actual start date
+        end: "February 2026",
         description:
           "Working as a Blockchain Developer Intern, contributing to blockchain development and smart contract implementation.",
       },
