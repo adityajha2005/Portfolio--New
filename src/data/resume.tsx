@@ -8,9 +8,9 @@ export const DATA = {
   location: "New Delhi, India",
   // locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-"Web3 Developer - building, learning, and sharing on X.",
+"Full Stack + AI + Blockchain - building and sharing on X.",
   summary:
-"I’m a Web3-focused Full Stack Developer and entrepreneur, currently building scalable SaaS and decentralized applications. With experience across multiple startups, 10+ hackathon wins, and grants, I love turning ideas into products that bridge Web2 and Web3. Beyond coding, I enjoy experimenting, sharing, and contributing to the developer ecosystem."  ,
+"I’m a Full Stack Developer building SaaS, AI-powered products, and blockchain applications. I’ve shipped across multiple startups and projects, earned 10+ hackathon wins and grants, and I enjoy taking ideas from product thinking and UX to production-ready systems. Beyond coding, I like experimenting, sharing learnings, and contributing to the developer ecosystem."  ,
 avatarUrl: "/pfp.jpeg",
   skills: [
     "React",
@@ -98,11 +98,25 @@ avatarUrl: "/pfp.jpeg",
         badges: ["Contract"],
         location: "Remote, San Francisco", 
         title: "Full Stack Developer",
-        logoUrl: "https://media.licdn.com/dms/image/v2/D4E16AQFDashwb8wvQA/profile-displaybackgroundimage-shrink_350_1400/B4EZXJDZsJGwAo-/0/1742834867726?e=1764201600&v=beta&t=eIWd9j5D3fyoqKqz2MxID6wyDearKSM3eVZtmYFhjwQ",
+        logoUrl: "/pikme.png",
+        // logoUrl: "https://media.licdn.com/dms/image/v2/D4E16AQFDashwb8wvQA/profile-displaybackgroundimage-shrink_350_1400/B4EZXJDZsJGwAo-/0/1742834867726?e=1764201600&v=beta&t=eIWd9j5D3fyoqKqz2MxID6wyDearKSM3eVZtmYFhjwQ",
         start: "February 2026", // update with actual start date
         end: "Present",
         description:
           "Working as a Blockchain Developer, contributing to blockchain development and smart contract implementation.",
+      },
+      {
+        company: "HydraDB",
+        href: "https://hydradb.com/",
+        badges: ["Contract"],
+        location: "Remote",
+        title: "Product Designer & Full Stack Engineer",
+        logoUrl: "/hydradb.png",
+        // logoUrl: "https://www.google.com/s2/favicons?domain=hydradb.com&sz=128",
+        start: "March 2026",
+        end: "April 2026",
+        description:
+          "Built and shipped HydraDB Workbench 2.0. Led product thinking, UI/UX, and full-stack implementation. Integrated APIs to support a fast, clean workbench/playground experience.",
       },
     {
         company: "Skate Chain",
@@ -123,7 +137,7 @@ avatarUrl: "/pfp.jpeg",
         badges: ["Internship"],
         location: "Remote, San Francisco",
         title: "Full Stack Developer",
-        logoUrl: "https://media.licdn.com/dms/image/v2/D4E16AQFDashwb8wvQA/profile-displaybackgroundimage-shrink_350_1400/B4EZXJDZsJGwAo-/0/1742834867726?e=1764201600&v=beta&t=eIWd9j5D3fyoqKqz2MxID6wyDearKSM3eVZtmYFhjwQ",
+        logoUrl: "/pikme.png",
         start: "July 2025",
         end: "October 2025",
         description:

@@ -46,7 +46,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="availability">
+      {/* <section id="availability">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <div className="rounded-lg border bg-card p-4 text-center">
             <div className="flex items-center justify-center gap-2">
@@ -60,7 +60,7 @@ export default function Page() {
             </div>
           </div>
         </BlurFade>
-      </section>
+      </section> */}
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
           <h2 className="text-xl font-bold">About</h2>
